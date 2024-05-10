@@ -20,4 +20,4 @@ mask = (np.array(
 with open('result.txt', 'w') as result:
   for i in np.array(holders)[mask]:
     result.write(i)
-    result.write(' ')
+    result.write('\n')
